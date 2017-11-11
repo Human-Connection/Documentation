@@ -1,6 +1,6 @@
-# ![](/assets/logo-hc.png)
+![](/assets/Bildschirmfoto vom 2017-11-11 um 22.54.22.png)
 
-# HC Frontend Documentation
+# HC Platform Documentation
 
 
 
