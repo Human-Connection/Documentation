@@ -9,5 +9,5 @@
   * [Projects](services/projects.md)
   * [Organizations](services/organizations.md)
   * [Badges](services/badges.md)
-  * [Followers](services/followers.md)
+  * [Follows](services/followers.md)
 
