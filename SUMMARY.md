@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Services](services/services.md)
+* [Services](services/README.md)
   * [Users](services/users.md)
   * [Contributions](services/contributions.md)
   * [Comments](services/comments.md)

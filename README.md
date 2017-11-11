@@ -1,8 +1,6 @@
 # ![](/assets/logo-hc.png)
 
-# HC Frontend Documentation 
-
-
+# HC Frontend Documentation
 
 
 
