@@ -7,7 +7,7 @@
   * [Comments](services/comments.md)
   * [Categories](services/categories.md)
   * [Projects](services/projects.md)
-  * [Organizations](organizations.md)
+  * [Organizations](services/organizations.md)
   * [Badges](services/badges.md)
   * [Followers](services/followers.md)
 
