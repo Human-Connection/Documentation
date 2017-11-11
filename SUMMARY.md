@@ -10,4 +10,5 @@
   * [Organizations](services/organizations.md)
   * [Badges](services/badges.md)
   * [Follows](services/followers.md)
+  * [Emotions](services/emotions.md)
 

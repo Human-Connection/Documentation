@@ -1,6 +1,6 @@
 # Follows Service
 
-This Service has not an own database or table but manages entries inside the following service \(mostly users\) and the followed service \(users, organizations, projects\)
+This Service has not an own database or table but manages entries inside the following service \(currnelty only users\) and the followed service \(users, organizations, projects\)
 
 **GET /follows/$id**
 
