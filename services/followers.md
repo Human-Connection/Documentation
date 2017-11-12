@@ -18,5 +18,9 @@ The user with the userId follows the service with the followingId specified by t
 }
 ```
 
+## Todos
+
+* [ ] Finish tests
+
 
 
