@@ -1,6 +1,8 @@
-![](/assets/Bildschirmfoto vom 2017-11-11 um 22.54.22.png)
+![](/assets/Logo-Pure@2x.png)
 
-# HC Platform Documentation
+# Human Connection  - Documentation
+
+
 
 
 
