@@ -28,7 +28,7 @@ img {
 	  }
 
 	  .book .book-summary nav ul.summary li.active > a {
-		    color: #43CEA2;
+		    color: #15A338;
 		      text-decoration: none;
 	      }
 
@@ -124,7 +124,7 @@ img {
 
 															      /* Title Links that pop up on hover */
 															      .book .book-body .page-wrapper .page-inner section.normal a.anchorjs-link {
-																        color: #43CEA2;
+																        color: #15A338;
 																}
 
 																/* Main links */
@@ -159,7 +159,7 @@ img {
 																	      }
 
 																	      .book .book-body .page-wrapper .page-inner section.normal blockquote strong {
-																		        color: #43CEA2;
+																		        color: #15A338;
 																		}
 
 																		.book .book-body .page-wrapper .page-inner section.normal blockquote p {
@@ -168,7 +168,7 @@ img {
 
 																		  /* Page Titles */
 																		  .book .book-body .page-wrapper .page-inner section.normal h1 {
-																			    color: #43CEA2;
+																			    color: #15A338;
 																		    }
 
 																		    .book .book-body .page-wrapper .page-inner section.normal h2 {
