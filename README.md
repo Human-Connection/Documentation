@@ -1,7 +1,5 @@
 
-<p class="center">
-  ![](/assets/HC-Guide@2x.png)
-</p>
+![](/assets/HC-Guide@2x.png)
 
 # Human Connection  - Documentation
 

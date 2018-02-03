@@ -57,7 +57,7 @@ img {
 /* Sidebar Title */
 .book .book-summary ul.summary li a.custom-link {
   color:           rgba(0, 0, 0, 0);
-  background-size: contain;
+  background-size: contain !important;
   background:      url('../assets/HC-Guide@2x.png') no-repeat center;
   margin:          10px;
   min-height:      100px;
