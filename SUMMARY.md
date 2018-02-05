@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Docker](docker.md)
 * [Server API](server-api.md)
   * [Overview](services/overview.md)
   * [Installation](services/installation.md)
