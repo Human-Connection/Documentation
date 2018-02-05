@@ -41,6 +41,27 @@
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2">
         <path d="M0 0 L0 17 L185 17 L185 0 Z"/>
       </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3">
+        <path d="M0 0 L0 17 L93 17 L93 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
+        <path d="M0 0 L0 17 L111 17 L111 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
+        <path d="M0 0 L0 17 L191 17 L191 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
+        <path d="M0 0 L0 17 L129 17 L129 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
+        <path d="M0 0 L0 17 L86 17 L86 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
+        <path d="M0 0 L0 17 L59 17 L59 0 Z"/>
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath9">
+        <path d="M0 0 L0 17 L97 17 L97 0 Z"/>
+      </clipPath>
       <script type="text/ecmascript"><![CDATA[      var SVGDocument = null;
       var SVGRoot = null;
       var TrueCoords = null;
@@ -106,97 +127,111 @@
         </g>
       </a>
     </g>
-    <g id="y.node.1">
-      <g fill="url(#linearGradient2)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient2)">
-        <ellipse rx="83" ry="45" cx="90" cy="360" stroke="none"/>
-      </g>
-      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-        <ellipse rx="83" fill="none" ry="45" cx="90" cy="360"/>
-      </g>
-      <g>
-        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-          <text x="57.0176" xml:space="preserve" y="357.1699" stroke="none">Server API </text>
-          <text x="61.7812" xml:space="preserve" y="371.1387" stroke="none">Port xxxx</text>
+    <g onmouseout="HideTooltip(evt)" id="y.node.1" onmousemove="ShowTooltip(evt)">
+      <a target="_blank" xlink:type="simple" xlink:href="server-api.html" xlink:show="new">
+        <g fill="url(#linearGradient2)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient2)">
+          <ellipse rx="83" ry="45" cx="90" cy="360" stroke="none"/>
         </g>
-      </g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+          <ellipse rx="83" fill="none" ry="45" cx="90" cy="360"/>
+        </g>
+        <g>
+          <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+            <text x="57.0176" xml:space="preserve" y="357.1699" stroke="none">Server API </text>
+            <text x="61.7812" xml:space="preserve" y="371.1387" stroke="none">Port xxxx</text>
+          </g>
+        </g>
+      </a>
     </g>
-    <g id="y.node.2">
-      <g fill="url(#linearGradient3)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient3)">
-        <rect x="436" y="-20" width="186" rx="20" ry="20" height="40" stroke="none"/>
-      </g>
-      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-        <rect x="436" y="-20" fill="none" width="186" rx="20" ry="20" height="40"/>
-      </g>
-      <g>
-        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-          <text x="509.1631" xml:space="preserve" y="4.1543" stroke="none">Helper</text>
+    <g onmouseout="HideTooltip(evt)" id="y.node.2" onmousemove="ShowTooltip(evt)">
+      <a target="_blank" xlink:type="simple" xlink:href="/services/helper.html" xlink:show="new">
+        <g fill="url(#linearGradient3)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient3)">
+          <rect x="436" y="-20" width="186" rx="20" ry="20" height="40" stroke="none"/>
         </g>
-      </g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+          <rect x="436" y="-20" fill="none" width="186" rx="20" ry="20" height="40"/>
+        </g>
+        <g>
+          <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+            <text x="509.1631" xml:space="preserve" y="4.1543" stroke="none">Helper</text>
+          </g>
+        </g>
+      </a>
     </g>
-    <g id="y.node.3">
-      <g fill="url(#linearGradient4)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient4)">
-        <rect x="436" y="92" width="186" rx="20" ry="20" height="40" stroke="none"/>
-      </g>
-      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-        <rect x="436" y="92" fill="none" width="186" rx="20" ry="20" height="40"/>
-      </g>
-      <g>
-        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-          <text x="510.5459" xml:space="preserve" y="116.1543" stroke="none">Hooks</text>
+    <g onmouseout="HideTooltip(evt)" id="y.node.3" onmousemove="ShowTooltip(evt)">
+      <a target="_blank" xlink:type="simple" xlink:href="/services/hooks.html" xlink:show="new">
+        <g fill="url(#linearGradient4)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient4)">
+          <rect x="436" y="92" width="186" rx="20" ry="20" height="40" stroke="none"/>
         </g>
-      </g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+          <rect x="436" y="92" fill="none" width="186" rx="20" ry="20" height="40"/>
+        </g>
+        <g>
+          <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+            <text x="510.5459" xml:space="preserve" y="116.1543" stroke="none">Hooks</text>
+          </g>
+        </g>
+      </a>
     </g>
-    <g id="y.node.4">
-      <g fill="url(#linearGradient5)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient5)">
-        <rect x="436" y="204" width="186" rx="20" ry="20" height="40" stroke="none"/>
-      </g>
-      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-        <rect x="436" y="204" fill="none" width="186" rx="20" ry="20" height="40"/>
-      </g>
-      <g>
-        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-          <text x="494.4385" xml:space="preserve" y="228.1543" stroke="none">Middleware</text>
+    <g onmouseout="HideTooltip(evt)" id="y.node.4" onmousemove="ShowTooltip(evt)">
+      <a target="_blank" xlink:type="simple" xlink:href="/services/middleware.html" xlink:show="new">
+        <g fill="url(#linearGradient5)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient5)">
+          <rect x="436" y="204" width="186" rx="20" ry="20" height="40" stroke="none"/>
         </g>
-      </g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+          <rect x="436" y="204" fill="none" width="186" rx="20" ry="20" height="40"/>
+        </g>
+        <g>
+          <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+            <text x="494.4385" xml:space="preserve" y="228.1543" stroke="none">Middleware</text>
+          </g>
+        </g>
+      </a>
     </g>
-    <g id="y.node.5">
-      <g fill="url(#linearGradient6)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient6)">
-        <rect x="436" y="340" width="186" rx="20" ry="20" height="40" stroke="none"/>
-      </g>
-      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-        <rect x="436" y="340" fill="none" width="186" rx="20" ry="20" height="40"/>
-      </g>
-      <g>
-        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-          <text x="507.8594" xml:space="preserve" y="364.1543" stroke="none">Models</text>
+    <g onmouseout="HideTooltip(evt)" id="y.node.5" onmousemove="ShowTooltip(evt)">
+      <a target="_blank" xlink:type="simple" xlink:href="/services/models.html" xlink:show="new">
+        <g fill="url(#linearGradient6)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient6)">
+          <rect x="436" y="340" width="186" rx="20" ry="20" height="40" stroke="none"/>
         </g>
-      </g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+          <rect x="436" y="340" fill="none" width="186" rx="20" ry="20" height="40"/>
+        </g>
+        <g>
+          <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+            <text x="507.8594" xml:space="preserve" y="364.1543" stroke="none">Models</text>
+          </g>
+        </g>
+      </a>
     </g>
-    <g id="y.node.6">
-      <g fill="url(#linearGradient7)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient7)">
-        <rect x="436" y="476" width="186" rx="20" ry="20" height="40" stroke="none"/>
-      </g>
-      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-        <rect x="436" y="476" fill="none" width="186" rx="20" ry="20" height="40"/>
-      </g>
-      <g>
-        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-          <text x="503.6992" xml:space="preserve" y="500.1543" stroke="none">Services</text>
+    <g onmouseout="HideTooltip(evt)" id="y.node.6" onmousemove="ShowTooltip(evt)">
+      <a target="_blank" xlink:type="simple" xlink:href="/services/services.html" xlink:show="new">
+        <g fill="url(#linearGradient7)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient7)">
+          <rect x="436" y="476" width="186" rx="20" ry="20" height="40" stroke="none"/>
         </g>
-      </g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+          <rect x="436" y="476" fill="none" width="186" rx="20" ry="20" height="40"/>
+        </g>
+        <g>
+          <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+            <text x="503.6992" xml:space="preserve" y="500.1543" stroke="none">Services</text>
+          </g>
+        </g>
+      </a>
     </g>
-    <g id="y.node.7">
-      <g fill="url(#linearGradient8)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient8)">
-        <rect x="436" y="730" width="186" rx="20" ry="20" height="40" stroke="none"/>
-      </g>
-      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-        <rect x="436" y="730" fill="none" width="186" rx="20" ry="20" height="40"/>
-      </g>
-      <g>
-        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
-          <text x="486.4902" xml:space="preserve" y="754.1543" stroke="none">Node Modules</text>
+    <g onmouseout="HideTooltip(evt)" id="y.node.7" onmousemove="ShowTooltip(evt)">
+      <a target="_blank" xlink:type="simple" xlink:href="/services/node-modules.html" xlink:show="new">
+        <g fill="url(#linearGradient8)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient8)">
+          <rect x="436" y="730" width="186" rx="20" ry="20" height="40" stroke="none"/>
         </g>
-      </g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+          <rect x="436" y="730" fill="none" width="186" rx="20" ry="20" height="40"/>
+        </g>
+        <g>
+          <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
+            <text x="486.4902" xml:space="preserve" y="754.1543" stroke="none">Node Modules</text>
+          </g>
+        </g>
+      </a>
     </g>
     <g id="y.edge.5">
       <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke-linecap="butt">
@@ -249,6 +284,69 @@
       </g>
       <g fill="rgb(49,106,196)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(49,106,196)">
         <path d="M0 0 L185 0 L185 17 L0 17 L0 0 ZM1 1 L184 1 L184 16 L1 16 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath2)" stroke="none"/>
+      </g>
+    </g>
+    <g visibility="hidden" id="tooltip.y.node.1" pointer-events="none">
+      <g fill="rgb(195,212,232)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(195,212,232)">
+        <rect x="0" width="93" height="17" y="0" clip-path="url(#clipPath3)" stroke="none"/>
+        <text fill="black" x="4" xml:space="preserve" y="13" clip-path="url(#clipPath3)" stroke="none">nodejs server</text>
+      </g>
+      <g fill="rgb(49,106,196)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(49,106,196)">
+        <path d="M0 0 L93 0 L93 17 L0 17 L0 0 ZM1 1 L92 1 L92 16 L1 16 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath3)" stroke="none"/>
+      </g>
+    </g>
+    <g visibility="hidden" id="tooltip.y.node.2" pointer-events="none">
+      <g fill="rgb(195,212,232)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(195,212,232)">
+        <rect x="0" width="111" height="17" y="0" clip-path="url(#clipPath4)" stroke="none"/>
+        <text fill="black" x="4" xml:space="preserve" y="13" clip-path="url(#clipPath4)" stroke="none">helping js-hands</text>
+      </g>
+      <g fill="rgb(49,106,196)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(49,106,196)">
+        <path d="M0 0 L111 0 L111 17 L0 17 L0 0 ZM1 1 L110 1 L110 16 L1 16 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath4)" stroke="none"/>
+      </g>
+    </g>
+    <g visibility="hidden" id="tooltip.y.node.3" pointer-events="none">
+      <g fill="rgb(195,212,232)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(195,212,232)">
+        <rect x="0" width="191" height="17" y="0" clip-path="url(#clipPath5)" stroke="none"/>
+        <text fill="black" x="4" xml:space="preserve" y="13" clip-path="url(#clipPath5)" stroke="none">do sth. before/after requests</text>
+      </g>
+      <g fill="rgb(49,106,196)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(49,106,196)">
+        <path d="M0 0 L191 0 L191 17 L0 17 L0 0 ZM1 1 L190 1 L190 16 L1 16 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath5)" stroke="none"/>
+      </g>
+    </g>
+    <g visibility="hidden" id="tooltip.y.node.4" pointer-events="none">
+      <g fill="rgb(195,212,232)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(195,212,232)">
+        <rect x="0" width="129" height="17" y="0" clip-path="url(#clipPath6)" stroke="none"/>
+        <text fill="black" x="4" xml:space="preserve" y="13" clip-path="url(#clipPath6)" stroke="none">custom middleware</text>
+      </g>
+      <g fill="rgb(49,106,196)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(49,106,196)">
+        <path d="M0 0 L129 0 L129 17 L0 17 L0 0 ZM1 1 L128 1 L128 16 L1 16 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath6)" stroke="none"/>
+      </g>
+    </g>
+    <g visibility="hidden" id="tooltip.y.node.5" pointer-events="none">
+      <g fill="rgb(195,212,232)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(195,212,232)">
+        <rect x="0" width="86" height="17" y="0" clip-path="url(#clipPath7)" stroke="none"/>
+        <text fill="black" x="4" xml:space="preserve" y="13" clip-path="url(#clipPath7)" stroke="none">data models</text>
+      </g>
+      <g fill="rgb(49,106,196)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(49,106,196)">
+        <path d="M0 0 L86 0 L86 17 L0 17 L0 0 ZM1 1 L85 1 L85 16 L1 16 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath7)" stroke="none"/>
+      </g>
+    </g>
+    <g visibility="hidden" id="tooltip.y.node.6" pointer-events="none">
+      <g fill="rgb(195,212,232)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(195,212,232)">
+        <rect x="0" width="59" height="17" y="0" clip-path="url(#clipPath8)" stroke="none"/>
+        <text fill="black" x="4" xml:space="preserve" y="13" clip-path="url(#clipPath8)" stroke="none">services</text>
+      </g>
+      <g fill="rgb(49,106,196)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(49,106,196)">
+        <path d="M0 0 L59 0 L59 17 L0 17 L0 0 ZM1 1 L58 1 L58 16 L1 16 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath8)" stroke="none"/>
+      </g>
+    </g>
+    <g visibility="hidden" id="tooltip.y.node.7" pointer-events="none">
+      <g fill="rgb(195,212,232)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(195,212,232)">
+        <rect x="0" width="97" height="17" y="0" clip-path="url(#clipPath9)" stroke="none"/>
+        <text fill="black" x="4" xml:space="preserve" y="13" clip-path="url(#clipPath9)" stroke="none">Node Modules</text>
+      </g>
+      <g fill="rgb(49,106,196)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(49,106,196)">
+        <path d="M0 0 L97 0 L97 17 L0 17 L0 0 ZM1 1 L96 1 L96 16 L1 16 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath9)" stroke="none"/>
       </g>
     </g>
   </g>
