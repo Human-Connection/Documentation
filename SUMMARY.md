@@ -12,7 +12,7 @@
   * [Services](server-api/services.md)
     * [Users](server-api/services/users.md)
     * [Contributions](server-api/services/contributions.md)
-    * Comments
+    * [Comments](server-api/services/comments.md)
     * Categories
     * Projects
     * Organizations
