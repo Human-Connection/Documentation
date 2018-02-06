@@ -13,7 +13,7 @@
     * [Users](server-api/services/users.md)
     * [Contributions](server-api/services/contributions.md)
     * [Comments](server-api/services/comments.md)
-    * Categories
+    * [Categories](server-api/services/categories.md)
     * Projects
     * Organizations
     * Badges
