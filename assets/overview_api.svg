@@ -113,7 +113,7 @@
 ]]></script>
     </defs>
     <g onmouseout="HideTooltip(evt)" id="y.node.0" onmousemove="ShowTooltip(evt)">
-      <a target="_blank" xlink:type="simple" xlink:href="/services/installation.html" xlink:show="new">
+      <a target="_blank" xlink:type="simple" xlink:href="/server-api/installation.html" xlink:show="new">
         <g fill="url(#linearGradient1)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient1)">
           <rect x="436" y="-80" width="186" rx="20" ry="20" height="40" stroke="none"/>
         </g>
@@ -144,7 +144,7 @@
       </a>
     </g>
     <g onmouseout="HideTooltip(evt)" id="y.node.2" onmousemove="ShowTooltip(evt)">
-      <a target="_blank" xlink:type="simple" xlink:href="/services/helper.html" xlink:show="new">
+      <a target="_blank" xlink:type="simple" xlink:href="/server-api/helper.html" xlink:show="new">
         <g fill="url(#linearGradient3)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient3)">
           <rect x="436" y="-20" width="186" rx="20" ry="20" height="40" stroke="none"/>
         </g>
@@ -159,7 +159,7 @@
       </a>
     </g>
     <g onmouseout="HideTooltip(evt)" id="y.node.3" onmousemove="ShowTooltip(evt)">
-      <a target="_blank" xlink:type="simple" xlink:href="/services/hooks.html" xlink:show="new">
+      <a target="_blank" xlink:type="simple" xlink:href="/server-api/hooks.html" xlink:show="new">
         <g fill="url(#linearGradient4)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient4)">
           <rect x="436" y="92" width="186" rx="20" ry="20" height="40" stroke="none"/>
         </g>
@@ -174,7 +174,7 @@
       </a>
     </g>
     <g onmouseout="HideTooltip(evt)" id="y.node.4" onmousemove="ShowTooltip(evt)">
-      <a target="_blank" xlink:type="simple" xlink:href="/services/middleware.html" xlink:show="new">
+      <a target="_blank" xlink:type="simple" xlink:href="/server-api/middleware.html" xlink:show="new">
         <g fill="url(#linearGradient5)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient5)">
           <rect x="436" y="204" width="186" rx="20" ry="20" height="40" stroke="none"/>
         </g>
@@ -189,7 +189,7 @@
       </a>
     </g>
     <g onmouseout="HideTooltip(evt)" id="y.node.5" onmousemove="ShowTooltip(evt)">
-      <a target="_blank" xlink:type="simple" xlink:href="/services/models.html" xlink:show="new">
+      <a target="_blank" xlink:type="simple" xlink:href="/server-api/models.html" xlink:show="new">
         <g fill="url(#linearGradient6)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient6)">
           <rect x="436" y="340" width="186" rx="20" ry="20" height="40" stroke="none"/>
         </g>
@@ -204,7 +204,7 @@
       </a>
     </g>
     <g onmouseout="HideTooltip(evt)" id="y.node.6" onmousemove="ShowTooltip(evt)">
-      <a target="_blank" xlink:type="simple" xlink:href="/services/services.html" xlink:show="new">
+      <a target="_blank" xlink:type="simple" xlink:href="/server-api/services.html" xlink:show="new">
         <g fill="url(#linearGradient7)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient7)">
           <rect x="436" y="476" width="186" rx="20" ry="20" height="40" stroke="none"/>
         </g>
@@ -219,7 +219,7 @@
       </a>
     </g>
     <g onmouseout="HideTooltip(evt)" id="y.node.7" onmousemove="ShowTooltip(evt)">
-      <a target="_blank" xlink:type="simple" xlink:href="/services/node-modules.html" xlink:show="new">
+      <a target="_blank" xlink:type="simple" xlink:href="/server-api/node-modules.html" xlink:show="new">
         <g fill="url(#linearGradient8)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,8,95)" stroke="url(#linearGradient8)">
           <rect x="436" y="730" width="186" rx="20" ry="20" height="40" stroke="none"/>
         </g>
