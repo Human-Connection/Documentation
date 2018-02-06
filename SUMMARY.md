@@ -18,7 +18,7 @@
     * [Organizations](server-api/services/organizations.md)
     * [Badges](server-api/services/badges.md)
     * [Follows](server-api/services/follows.md)
-    * Emotions
+    * [Emotions](server-api/services/emotions.md)
   * [Node Modules](server-api/node-modules.md)
 * [Web APP](web-app.md)
 
