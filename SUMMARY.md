@@ -15,7 +15,7 @@
     * [Comments](server-api/services/comments.md)
     * [Categories](server-api/services/categories.md)
     * [Projects](server-api/services/projects.md)
-    * Organizations
+    * [Organizations](server-api/services/organizations.md)
     * Badges
     * Follows
     * Emotions
