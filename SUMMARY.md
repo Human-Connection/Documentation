@@ -10,7 +10,7 @@
   * [Middleware](server-api/middleware.md)
   * [Models](server-api/models.md)
   * [Services](server-api/services.md)
-    * Users
+    * [Users](server-api/services/users.md)
     * Contributions
     * Comments
     * Categories
