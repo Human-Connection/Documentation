@@ -1,0 +1,29 @@
+{
+		"plugins": [
+			"include-codeblock", 
+			"ace", 
+			"asciinema-local", 
+			"asciinema", 
+			"html5-video", 
+			"expand-active-chapter",
+			"-theme-faq",
+			"fontsettings",
+			"sharing",
+			"sectionx",
+			"katex",
+			"terminal",
+			"heading-anchors"
+		],
+		"pluginsConfig": {
+			"sectionx": {
+				"tag": "b"
+			},
+			"terminal": {
+				"copyButtons": false,
+				"fade": false,
+				"style": "ubuntu"
+			}
+		}
+
+}
+
