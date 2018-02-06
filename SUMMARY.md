@@ -16,7 +16,7 @@
     * [Categories](server-api/services/categories.md)
     * [Projects](server-api/services/projects.md)
     * [Organizations](server-api/services/organizations.md)
-    * Badges
+    * [Badges](server-api/services/badges.md)
     * Follows
     * Emotions
   * [Node Modules](server-api/node-modules.md)
