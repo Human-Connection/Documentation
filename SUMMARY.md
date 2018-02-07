@@ -21,4 +21,5 @@
     * [Emotions](server-api/services/emotions.md)
   * [Node Modules](server-api/node-modules.md)
 * [Web APP](web-app.md)
+* [Installation](web-app/installation.md)
 

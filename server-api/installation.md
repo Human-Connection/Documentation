@@ -1,4 +1,6 @@
-# Installation \(On Local System\)
+# Installation of the HC API
+
+###### Installation \(On Local System\)
 
 ## Framework
 
