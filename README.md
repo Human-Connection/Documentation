@@ -1,7 +1,9 @@
-![https://docs.human-connection.org](/assets/HC-Guide@2x.png)
+<a href="https://docs.human-connection.org" alt="Human-Connection Documentation">
+    ![](/assets/HC-Guide@2x.png)
+</a>
 
 #### Welcome to our Human-Connection Documentation
-> You can read this Documentation under [https://docs.human-connection.org](docs.human-connection.org)
+> You can read this Documentation under [docs.human-connection.org](https://docs.human-connection.org)
 
 On the following pages you will learn how to Install, Understand and Contribute to the Human-Connection Plattform.
 
