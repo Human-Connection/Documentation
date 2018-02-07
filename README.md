@@ -1,6 +1,11 @@
-![](/assets/HC-Guide@2x.png)
+![https://docs.human-connection.org](/assets/HC-Guide@2x.png)
 
-# Human Connection  - Documentation
+#### Welcome to our Human-Connection Documentation
+> You can read this Documentation under [https://docs.human-connection.org](docs.human-connection.org)
+
+On the following pages you will learn how to Install, Understand and Contribute to the Human-Connection Plattform.
+
+> You don't know what Human-Connection is? [Jump to our Site](https://human-connection.org) to get more information on the Project.
 
 
 
