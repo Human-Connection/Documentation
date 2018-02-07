@@ -1,5 +1,5 @@
-<a href="https://docs.human-connection.org" alt="Human-Connection Documentation">
-    ![](/assets/HC-Guide@2x.png)
+<a href="https://docs.human-connection.org">
+    <img src="/assets/HC-Guide@2x.png" alt="Human-Connection" />
 </a>
 
 #### Welcome to our Human-Connection Documentation
