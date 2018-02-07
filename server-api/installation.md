@@ -93,8 +93,6 @@ If, f.ex., you want to change listen address, port or URL, you can do so. Entrie
 
 Simply run `yarn test` and all your tests in the `test/` directory will be run.
 
-> **Note:**_At the moment there are some issues with linting while testing, but you can run the tests also with mocha run_
-
 ## Scaffolding
 
 Feathers has a powerful command line interface. Here are a few things it can do:
