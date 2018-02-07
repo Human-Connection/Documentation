@@ -4,7 +4,7 @@
 
 {% raw %}
 <object data="../assets/overview_api3.svg" type="image/svg+xml">
-![](../assets/overview-api.svg)
+![](../assets/overview_api3.svg)
 </object>
 {% endraw %}
 
