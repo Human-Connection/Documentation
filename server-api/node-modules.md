@@ -2,7 +2,9 @@
 
 ## body-parser
 
+### body parsing middleware
 
+Parse incoming request bodies in a middleware before your handlers, available under the `req.body` property.
 
 ## compression
 
