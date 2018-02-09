@@ -25,5 +25,5 @@
   * [Docker: Test / Production](environments/docker.md)
     * [Docker Configuration](environments/docker-config.md)
   * [Local: Development](environments/development.md)
-
+* [Architecture](architecture.md)
 
