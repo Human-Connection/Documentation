@@ -8,6 +8,8 @@ Parse incoming request bodies in a middleware before your handlers, available un
 
 ## compression
 
+Returns the compression middleware using the given `options.` The middleware will attempt to compress response bodies for all request that traverse through the middleware, based on the given `options.`
+
 ## cors
 
 ## crypto
