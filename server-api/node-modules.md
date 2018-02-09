@@ -12,6 +12,8 @@ Returns the compression middleware using the given `options.` The middleware wil
 
 ## cors
 
+Cross-orign resource sharing between Browser and Server
+
 ## crypto
 
 ## crypto-js
