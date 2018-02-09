@@ -12,19 +12,31 @@ Returns the compression middleware using the given `options.` The middleware wil
 
 ## cors
 
-Cross-orign resource sharing between Browser and Server
+Cross-orign resource sharing between Browser and Server.
 
 ## crypto
 
+Providing encryption of sensitive data.
+
 ## crypto-js
+
+Library of crypto standards like sha256, hmac-sha512, enc-base64 ...
 
 ## dauria
 
+Provides conversions between Node.js-Buffers and rfc-standardized URIs
+
 ## email-templates
+
+Create, preview and send customizable email-templates with NodeJS
 
 ## feathers
 
+Feathers-framework for NodeJS
+
 ## feathers-authentication
+
+Adds shared PassportJS authentication for Feathers HTTP REST and WebSocket transports
 
 ## feathers-authentication-hooks
 
