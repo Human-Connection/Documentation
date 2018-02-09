@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Docker](docker.md)
 * [Server API](server-api.md)
   * [Overview](server-api/overview.md)
   * [Installation](server-api/installation.md)
@@ -22,6 +21,9 @@
   * [Node Modules](server-api/node-modules.md)
 * [Web APP](web-app.md)
   * [Installation](web-app/installation.md)
-
+* [Environments](environments.md)
+  * [Docker: Test / Production](environments/docker.md)
+    * [Docker Configuration](environments/docker-config.md)
+  * [Local: Development](environments/development.md)
 
 
