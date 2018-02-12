@@ -72,7 +72,11 @@ Useful hooks for use with Feathers services: Resolvers, Shaping the Result, Cust
 
 ## feathers-logger
 
+just a simple wrapper for any logger so that you can conveniently do `app.log()`. There are 4 methods provided for you to use: info, warn, error, debug
+
 ## feathers-mailer
+
+
 
 ## feathers-memory
 
