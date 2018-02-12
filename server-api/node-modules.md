@@ -40,15 +40,23 @@ Adds shared PassportJS authentication for Feathers HTTP REST and WebSocket trans
 
 ## feathers-authentication-hooks
 
+Useful hooks for authentication and authorization like `queryWithCurrentUser`, `restrictToOwner`, `associateCurrentUser`, `restrictToRoles`, `hasRoleOrRestrict`
+
 ## feathers-authentication-jwt
+
+JWT \(JSON Web Tokens\) authentication strategy for feathers-authentication using Passport \(authentication middleware for node.js\)
 
 ## feathers-authentication-local
 
+Local authentication strategy for feathers-authentication using Passport without all the boilerplate.
+
 ## feathers-authentication-management
 
-## feathers-blob
+Adds sign up verification, forgotten password reset, and other capabilities to local `feathers-authentication`.
 
 ## feathers-configuration
+
+A small configuration module for your Feathers application, using config-folder containing default.json, production.json ...
 
 ## feathers-errors
 
