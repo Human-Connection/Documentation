@@ -76,7 +76,7 @@ just a simple wrapper for any logger so that you can conveniently do `app.log()`
 
 ## feathers-mailer
 
-Feathers mailer service using nodemailer. 
+Feathers mailer service using nodemailer.
 
 ## feathers-memory
 
@@ -84,11 +84,19 @@ A Feathers service adapter for in-memory data storage that works on all platform
 
 ## feathers-mongodb
 
+Create a MongoDB service for FeathersJS
+
 ## feathers-mongodb-fuzzy-search
+
+implements $search to mongodb service.find, update, patch and remove queries. Full-text search on documents with stemming as well as pattern matching on individual fields.
 
 ## feathers-mongoose
 
+A Feathers database adapter for Mongoose, an object modeling tool for MongoDB.
+
 ## feathers-rest
+
+This provider exposes Feathers services through a RESTful API using Express that can be used with Feathers 1.x and 2.x as well as client support for Fetch, jQuery, Request, Superagent, axios and angular2+'s HTTP Service. \(replaced by framework specific adapters for feathers v3 and later\)
 
 ## feathers-seeder
 
