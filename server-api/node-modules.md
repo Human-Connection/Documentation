@@ -60,7 +60,11 @@ A small configuration module for your Feathers application, using config-folder 
 
 ## feathers-errors
 
+Error handling mixin for Feathers apps. 
+
 ## feathers-hooks
+
+Middleware for Feathers service methods \(included in module feathers starting with feathers v3\)
 
 ## feathers-hooks-common
 
