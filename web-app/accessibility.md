@@ -1,10 +1,14 @@
 # Accessibility
 
+We need to address accessibility so that our network can be used through screen readers like [Lynx](http://lynx.invisible-island.net/) or more modern ones like [NVDA](https://github.com/nvaccess/nvda/tree/master).
+
 ### Tools and Resources
 
 * [AXE Browser Plugins](https://www.axe-core.org/) _Developer Tools_
 
 * [a11y.css](http://ffoodd.github.io/a11y.css/) _Bookmarlet generator_
+
+* [tota11y](https://github.com/Khan/tota11y) _In Browser Checks_
 
 * [Getting Started with Web Accessibility in Vue](https://medium.com/@emilymears/getting-started-with-web-accessibility-in-vue-17e2c4ea0842) _Medium Article_
 
