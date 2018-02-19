@@ -21,9 +21,9 @@
   * [Node Modules](server-api/node-modules.md)
 * [Web APP](web-app.md)
   * [Installation](web-app/installation.md)
+  * [Accessibility](web-app/accessibility.md)
 * [Environments](environments.md)
   * [Docker: Test / Production](environments/docker.md)
     * [Docker Configuration](environments/docker-config.md)
   * [Local: Development](environments/development.md)
-
 
