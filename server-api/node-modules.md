@@ -100,7 +100,11 @@ This provider exposes Feathers services through a RESTful API using Express that
 
 ## feathers-seeder
 
+enables you to fill your database \(specifically feathers-memory\) with needed fake data to test your application appropiately. You can launch your application with or without new seeded data.
+
 ## feathers-socketio
+
+allows you to call service methods and receive real-time events via Socket.io and can be used standalone or together with a Feathers framework integration like Express. This module adds the feathers-layer to Socket.io and eases the server- and client-usage of it.
 
 ## fs-blob-store
 
