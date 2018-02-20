@@ -110,51 +110,66 @@ allows you to call service methods and receive real-time events via Socket.io an
 
 ## fs-blob-store
 
-
+filesystem storage module for blobs
 
 ## fs-extra
 
+adds file system methods that aren't included in the native fs-module and adds promise support to the fs-methods; drop in replacement for the fs-module including [these](https://github.com/jprichardson/node-fs-extra "these") methods.
+
 ## handlebars
 
-Templating engine for Email generation.
+Templating engine for Email generation (easing management of HTML content)
 
 ## handlebars-layouts
 
-Layouts for Email Templates
+Layouts for Email Templates (Handlebars helpers which implement layout blocks similar to Jade, Jinja, Nunjucks, Swig, and Twig.)
 
 ## helmet
 
-Used for Security Settings like SSL Enforcing and other best practice headers
+Used for Security Settings like SSL Enforcing and other best practice headers (Securing HTTP headers
+)
 
 ## html-excerpt
 
-Creating short and truncated versions of content for previews
+Creating short and truncated versions of content for previews \(Attempts to remove all HTML and then shortens the result according to the provided option.\)
 
 ## mongoose
 
-MongoDB ORM
+MongoDB object modeling tool, designed to work in an asyncronous environment. Models are defined through the Schema interface.
 
 ## multer
 
+Middleware to handle 'multipart/form-data', primarily used for uploading files \(not processing any form which is not multipart\)
+
 ## node-sass
+
+Node-sass is a library that provides binding for Node.js to [LibSass](https://github.com/sass/libsass), the C version of the popular stylesheet preprocessor, Sass. It allows you to natively compile .scss files to css at incredible speed and automatically via a connect middleware.
 
 ## raven
 
+JavaScript client for the [Sentry](https://sentry.io/welcome/ "Sentry") realtime event logging and aggregation platform.
+
 ## serve-favicon
+
+Middleware for serving a favicon \(caching, excluding favicon-log-messages\).
 
 ## shortid
 
+Short non-sequential url-friendly unique id generator.
+
 ## slug
 
-Creating URL friendly Slugs for the Content that are used as deep-links
+Creating URL friendly Slugs for the Content that are used as deep-links \(slugifies every string, even when it contains unicode \)
 
 ## wait-on
 
 Used for waiting for the MongoDB to start in development mode.
+\(wait-on is a cross-platform command line utility which will wait for files, ports, sockets, and http\(s\) resources to become available \(or not available using reverse mode\)\).
 
 ## winston
 
 Logging Framework. Can be used though app.error, app.debug, etc...
+\(A logger for just about everything \)
 
 
 
