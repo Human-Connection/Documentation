@@ -82,13 +82,23 @@ Adds shared PassportJS authentication for Feathers HTTP REST and WebSocket trans
 
 ## handlebars
 
+Templating engine for Email generation.
+
 ## handlebars-layouts
+
+Layouts for Email Templates
 
 ## helmet
 
+Used for Security Settings like SSL Enforcing and other best practice headers
+
 ## html-excerpt
 
+Creating short and truncated versions of content for previews
+
 ## mongoose
+
+MongoDB ORM
 
 ## multer
 
@@ -102,9 +112,15 @@ Adds shared PassportJS authentication for Feathers HTTP REST and WebSocket trans
 
 ## slug
 
+Creating URL friendly Slugs for the Content that are used as deep-links
+
 ## wait-on
 
+Used for waiting for the MongoDB to start in development mode.
+
 ## winston
+
+Logging Framework. Can be used though app.error, app.debug, etc...
 
 
 
