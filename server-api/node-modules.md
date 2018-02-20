@@ -34,6 +34,8 @@ Create, preview and send customizable email-templates with NodeJS
 
 Feathers-framework for NodeJS
 
+> **Note on the Feathers Modules, they will be replaced by a new set after updating to Feathers Buzzard**
+
 ## feathers-authentication
 
 Adds shared PassportJS authentication for Feathers HTTP REST and WebSocket transports
