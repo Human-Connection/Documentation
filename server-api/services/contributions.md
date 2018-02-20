@@ -1,6 +1,6 @@
 # Contributions Service
 
-The Contribution Service dieals with posts, votes, etc.
+The Contribution Service deals with posts, votes, etc.
 
 > **Question:** Should votes, pro cons, etc. be split of form contributions?
 >
@@ -38,7 +38,7 @@ The Contribution Service dieals with posts, votes, etc.
 
 ## More Info
 
-List all Contributions and Chatrooms that match the current Contribution. 
+List all Contributions and Chatrooms that match the current Contribution.
 
 _The matching happens by Categories and Tags._
 
@@ -57,8 +57,6 @@ _The matching happens by Categories and Tags._
 * Jobs
 * Events
 * Map
-
-
 
 
 

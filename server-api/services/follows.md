@@ -1,6 +1,6 @@
 # Follows Service
 
-This Service has not an own database or table but manages entries inside the following service \(currnelty only users\) and the followed service \(users, organizations, projects\)
+This Service has not an own database or table but manages entries inside the following service \(currently only users\) and the followed service \(users, organizations, projects\)
 
 **GET /follows/$id**
 
@@ -16,7 +16,6 @@ The user with the userId follows the service with the followingId specified by t
   "followingId": "5a042f5ca40ed49f79a32900",
   "type": "users"
 }
-
 ```
 
 ## Todos {#todos}
