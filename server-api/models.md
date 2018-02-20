@@ -5,7 +5,7 @@ ToDo collection-svg
 <!--endsec-->
 
 <!--sec data-title="Contributions" data-id="section1" data-collapse=true data-show=true ces-->
-ToDo collection-svg
+![](/assets/Server_API_Contributions.svg)
 <!--endsec-->
 
 <!--sec data-title="Comments" data-id="section2" data-collapse=true data-show=true ces-->
