@@ -148,17 +148,21 @@ JavaScript client for the [Sentry](https://sentry.io/welcome/ "Sentry") realtime
 
 ## serve-favicon
 
-Middleware for serving a favicon \(caching, excluding favicon-log-messages\). 
+Middleware for serving a favicon \(caching, excluding favicon-log-messages\).
 
 ## shortid
 
-
+Short non-sequential url-friendly uniue id generator.
 
 ## slug
 
+slugifies every string, even when it contains unicode
+
 ## wait-on
+
+wait-on is a cross-platform command line utility which will wait for files, ports, sockets, and http\(s\) resources to become available \(or not available using reverse mode\).
 
 ## winston
 
-
+A logger for just about everything
 
