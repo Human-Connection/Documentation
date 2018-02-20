@@ -118,16 +118,15 @@ adds file system methods that aren't included in the native fs-module and adds p
 
 ## handlebars
 
-Templating engine for Email generation (easing management of HTML content)
+Templating engine for Email generation \(easing management of HTML content\)
 
 ## handlebars-layouts
 
-Layouts for Email Templates (Handlebars helpers which implement layout blocks similar to Jade, Jinja, Nunjucks, Swig, and Twig.)
+Layouts for Email Templates \(Handlebars helpers which implement layout blocks similar to Jade, Jinja, Nunjucks, Swig, and Twig.\)
 
 ## helmet
 
-Used for Security Settings like SSL Enforcing and other best practice headers (Securing HTTP headers
-)
+Used for Security Settings like SSL Enforcing and other best practice headers \(Securing HTTP headers\)
 
 ## html-excerpt
 
@@ -163,13 +162,11 @@ Creating URL friendly Slugs for the Content that are used as deep-links \(slugif
 
 ## wait-on
 
-Used for waiting for the MongoDB to start in development mode.
+Used for waiting for the MongoDB to start in development mode.  
 \(wait-on is a cross-platform command line utility which will wait for files, ports, sockets, and http\(s\) resources to become available \(or not available using reverse mode\)\).
 
 ## winston
 
-Logging Framework. Can be used though app.error, app.debug, etc...
+Logging Framework. Can be used though app.error, app.debug, etc...  
 \(A logger for just about everything \)
-
-
 
