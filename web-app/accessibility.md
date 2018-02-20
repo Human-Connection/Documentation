@@ -2,8 +2,6 @@
 
 We need to address accessibility so that our network can be used through screen readers like [Lynx](http://lynx.invisible-island.net/) or more modern ones like [NVDA](https://github.com/nvaccess/nvda/tree/master).
 
-
-
 ### Development
 
 ![](/assets/tools/tota11y-small.png)
@@ -12,7 +10,7 @@ We need to address accessibility so that our network can be used through screen 
 
 ![](/assets/tools/tota11y-large.png)**It will give you some insides and tips for improving the accessitility.**
 
-### 
+
 
 ### Other Tools and Resources
 
