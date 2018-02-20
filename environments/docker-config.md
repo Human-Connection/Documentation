@@ -1,4 +1,4 @@
-# Docker
+# Docker Configuration
 
 We are building Docker Images automatically from the API and WebApp master branches with Travis CI where we also run tests.
 
@@ -41,6 +41,3 @@ We are building Docker Images automatically from the API and WebApp master branc
 | SENTRY\_DNS\_PUBLIC |  |  | Logging Identifier used for debugging frontend and backend issues |
 | MAPBOX\_TOKEN |  |  | Mapbox access token |
 | RELEASE |  |  | Release Key which is replaced on build time to identify which issue affects which release |
-
-
-
