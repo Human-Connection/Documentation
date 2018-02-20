@@ -108,9 +108,11 @@ allows you to call service methods and receive real-time events via Socket.io an
 
 ## fs-blob-store
 
-
+filesystem storage module for blobs
 
 ## fs-extra
+
+adds file system methods that aren't included in the native fs-module and adds promise support to the fs-methods; drop in replacement for the fs-module
 
 ## handlebars
 
