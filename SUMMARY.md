@@ -11,6 +11,7 @@
   * [Services](server-api/services.md)
     * [Users](server-api/services/users.md)
     * [Contributions](server-api/services/contributions.md)
+      * [Model](server-api/services/contributions/model.md)
     * [Comments](server-api/services/comments.md)
     * [Categories](server-api/services/categories.md)
     * [Projects](server-api/services/projects.md)
