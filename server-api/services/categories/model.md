@@ -1,3 +1,8 @@
 # Model Categories
 
 ##Schema
+
+```js
+{
+}
+```

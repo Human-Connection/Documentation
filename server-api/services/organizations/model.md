@@ -1,3 +1,8 @@
 # Model Organizations
 
 ##Schema
+
+```js
+{
+}
+```

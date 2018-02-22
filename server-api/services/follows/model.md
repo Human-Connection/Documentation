@@ -1,3 +1,8 @@
 # Model Follows
 
 ##Schema
+
+```js
+{
+}
+```

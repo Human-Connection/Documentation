@@ -1,3 +1,8 @@
 # Model Emotions
 
 ##Schema
+
+```js
+{
+}
+```

@@ -1,3 +1,8 @@
 # Model Comments
 
 ##Schema
+
+```js
+{
+}
+```

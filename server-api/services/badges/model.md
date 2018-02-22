@@ -1,3 +1,8 @@
 # Model Badges
 
 ##Schema
+
+```js
+{
+}
+```

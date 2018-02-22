@@ -1,3 +1,8 @@
 # Model Users
 
 ##Schema
+
+```js
+{
+}
+```

@@ -1,3 +1,8 @@
 # Model Projects
 
 ##Schema
+
+```js
+{
+}
+```
