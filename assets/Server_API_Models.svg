@@ -353,6 +353,58 @@
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2">
         <path d="M-456 -1094 L1577 -1094 L1577 326 L-456 326 L-456 -1094 Z"/>
       </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3">
+        <path d="M0 0 L0 17 L55 17 L55 0 Z"/>
+      </clipPath>
+      <script type="text/ecmascript"><![CDATA[      var SVGDocument = null;
+      var SVGRoot = null;
+      var TrueCoords = null;
+      var lastElement = null;
+      var initialized = null;
+      var tipGroup;
+      function Init(evt)
+      {
+         SVGDocument = evt.target.ownerDocument;
+         SVGRoot = SVGDocument.documentElement;
+         TrueCoords = SVGRoot.createSVGPoint();
+         initialized = evt;
+      };
+      function GetTrueCoords(evt)
+      {
+         var newScale = SVGRoot.currentScale;
+         var translation = SVGRoot.currentTranslate;
+         TrueCoords.x = (evt.clientX - translation.x)/newScale;
+         TrueCoords.y = (evt.clientY - translation.y)/newScale;
+      };
+      function HideTooltip( evt )
+      {
+         if(initialized == null) {
+           Init(evt);
+         }
+         if(tipGroup != null) {
+           tipGroup.setAttributeNS(null, 'visibility', 'hidden');
+         }
+      };
+      function ShowTooltip( evt )
+      {
+         if(initialized == null) {
+           Init(evt);
+         }
+         GetTrueCoords( evt );
+         var tipScale = 1/SVGRoot.currentScale;
+         var targetElement = evt.currentTarget;
+         if ( lastElement != targetElement )
+         {
+            var targetId = targetElement.getAttributeNS(null, 'id');
+            var tipId = 'tooltip.' + targetId;
+            tipGroup = SVGDocument.getElementById(tipId);
+            var xPos = TrueCoords.x + (10 * tipScale);
+            var yPos = TrueCoords.y + (10 * tipScale);
+            tipGroup.setAttributeNS(null, 'transform', 'translate(' + xPos + ',' + yPos + ') scale(' + tipScale + ')');
+            tipGroup.setAttributeNS(null, 'visibility', 'visible');
+         }
+      };
+]]></script>
     </defs>
     <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="translate(456,1094)" stroke="white">
       <rect x="-456" width="2033" height="1420" y="-1094" clip-path="url(#clipPath2)" stroke="none"/>
@@ -1310,8 +1362,8 @@
         </g>
       </g>
     </g>
-    <g id="y.node.73">
-      <a xlink:href="services/badges/model.html">
+    <g onmouseout="HideTooltip(evt)" id="y.node.73" onmousemove="ShowTooltip(evt)">
+      <a xlink:href="../services/badges/model.html">
         <g fill="url(#linearGradient74)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,456,1094)" stroke="url(#linearGradient74)">
           <ellipse rx="83" ry="45" cx="539.6074" cy="-933.875" stroke="none"/>
         </g>
@@ -1874,6 +1926,15 @@
     <g id="y.edge.78">
       <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,456,1094)" stroke-linecap="butt">
         <path fill="none" d="M-56.8 -608.2289 L-56.8 -672.3829"/>
+      </g>
+    </g>
+    <g visibility="hidden" id="tooltip.y.node.73" pointer-events="none">
+      <g fill="rgb(195,212,232)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(195,212,232)">
+        <rect x="0" width="55" height="17" y="0" clip-path="url(#clipPath3)" stroke="none"/>
+        <text fill="black" x="4" xml:space="preserve" y="13" clip-path="url(#clipPath3)" stroke="none">Badges</text>
+      </g>
+      <g fill="rgb(49,106,196)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" font-family="sans-serif" stroke="rgb(49,106,196)">
+        <path d="M0 0 L55 0 L55 17 L0 17 L0 0 ZM1 1 L54 1 L54 16 L1 16 L1 1 Z" fill-rule="evenodd" clip-path="url(#clipPath3)" stroke="none"/>
       </g>
     </g>
   </g>
