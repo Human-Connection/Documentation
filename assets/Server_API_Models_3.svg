@@ -1468,7 +1468,7 @@
       </g>
     </g>
     <g onmouseout="HideTooltip(evt)" id="y.node.79" onmousemove="ShowTooltip(evt)">
-      <a target="_top" xlink:type="simple" xlink:href="../server-api/services/Emotions/model.html" xlink:show="new">
+      <a target="_top" xlink:type="simple" xlink:href="../server-api/services/emotions/model.html" xlink:show="new">
         <g fill="url(#linearGradient80)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,456,1094)" stroke="url(#linearGradient80)">
           <ellipse rx="83" ry="45" cx="-56.8" cy="-717.4" stroke="none"/>
         </g>
