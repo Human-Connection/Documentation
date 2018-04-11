@@ -1,8 +1,8 @@
-# Model Users
+# Model
 
-##Schema
+## Schema
 
-```js
+```javascript
 {
     email: {type: String, required: true, unique: true},
     password: { type: String },
@@ -40,3 +40,4 @@
     language: { type: String, default: 'en' }
 }
 ```
+

@@ -1,9 +1,10 @@
-# Model Follows
+# Model
 
-##Schema
+## Schema
 
-```js
+```javascript
 {
 
 }
 ```
+

@@ -1,6 +1,6 @@
-# Installation of the HC API
+# Installation
 
-###### Installation \(On Local System\)
+#### Installation \(On Local System\)
 
 ## Framework
 
@@ -13,7 +13,6 @@ This project uses [Feathers](http://feathersjs.com). An open source web framewor
 Getting up and running is as easy as 1, 2, 3, 4 ... 5.
 
 1. Make sure you have [NodeJS](https://nodejs.org/), [yarn](https://yarnpkg.com), [mongoDB](https://www.mongodb.com/download-center#community) installed.
-
 2. Clone this repo
 
    ```bash
@@ -61,7 +60,7 @@ Getting up and running is as easy as 1, 2, 3, 4 ... 5.
    $ yarn start
    ```
 
-   > ##### IMPORTANT for WIN users:
+   > ### IMPORTANT for WIN users:
    >
    > * make sure you have mongo bin directory added to your PATH
    > * if you picked another data directory during mongodb setup make sure to change package.json scripts section for key "dev-win" so it points to the proper path. Otherwise you will get missing data path errors from mongodb.
@@ -86,8 +85,11 @@ If, f.ex., you want to change listen address, port or URL, you can do so. Entrie
 **Note on the seeder configuration** The seeder configuration has two properties:
 
 * **dropDatabase:**
+
    drop the whole database on \(re\)start.
+
 * **runOnInit:**
+
    run the seeder always on server \(re\)start \(when database is empty\).
 
 > **Note**_You can switch the _`dropDatabase`_ entry after seeding and it will persist the seeded data._
@@ -116,6 +118,4 @@ $ feathers generate model
 $ feathers help
 # Show all commands
 ```
-
-
 

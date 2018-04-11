@@ -1,4 +1,4 @@
-# Emotions Service
+# Emotions
 
 This Service has not an own database or table but manages entries inside the contributions service. It does count the user votes on five different emotions related to a given contribution.
 
@@ -7,6 +7,4 @@ This Service has not an own database or table but manages entries inside the con
 Todos
 
 * \[ \] Finish tests
-
-
 

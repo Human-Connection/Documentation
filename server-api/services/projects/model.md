@@ -1,8 +1,8 @@
-# Model Projects
+# Model
 
-##Schema
+## Schema
 
-```js
+```javascript
 {
     name: { type: String, required: true },
     slug: { type: String },
@@ -18,3 +18,4 @@
     wasSeeded: { type: Boolean }
 }
 ```
+

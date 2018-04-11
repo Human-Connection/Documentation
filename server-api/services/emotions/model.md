@@ -1,8 +1,8 @@
-# Model Emotions
+# Model
 
-##Schema
+## Schema
 
-```js
+```javascript
 {
     userId: { type: String, required: true },
     contributionId: { type: String, required: true },
@@ -16,3 +16,4 @@
     wasSeeded: { type: Boolean }
 }
 ```
+

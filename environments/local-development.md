@@ -1,5 +1,4 @@
-
-# Development Environment
+# Local: Development
 
 For prerequisites and setup of API and frontend, please see those pages:
 
@@ -8,8 +7,3 @@ For prerequisites and setup of API and frontend, please see those pages:
 
 Here's a graphical overview of how the components in the development environment are connected.
 
-{% raw %}
-<object data="../assets/development_env.png" type="image/png">
-![](../assets/development_env.png)
-</object>
-{% endraw %}

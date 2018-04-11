@@ -1,4 +1,4 @@
-# Contributions Service
+# Contributions
 
 The Contribution Service deals with posts, votes, etc.
 
@@ -33,6 +33,4 @@ _The matching happens by Categories and Tags._
 * Jobs
 * Events
 * Map
-
-
 

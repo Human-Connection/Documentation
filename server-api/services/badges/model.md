@@ -1,8 +1,8 @@
-# Model Badges
+# Model
 
-##Schema
+## Schema
 
-```js
+```javascript
 {
     image: imageSchema,
     // may be temporary or some other status
@@ -22,3 +22,4 @@
     updatedAt: { type: Date, default: Date.now }
 }
 ```
+

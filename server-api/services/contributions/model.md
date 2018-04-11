@@ -1,8 +1,8 @@
-# Model Contributions
+# Model
 
 ## Schema
 
-```js
+```javascript
 {
     userId: { type: String, required: true },
     categoryIds: { type: Array },
@@ -23,8 +23,4 @@
     updatedAt: { type: Date, default: Date.now }
 }
 ```
-
-
-
-
 

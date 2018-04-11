@@ -1,8 +1,8 @@
-# Model Categories
+# Model
 
-##Schema
+## Schema
 
-```js
+```javascript
 {
     title: { type: String, required: true },
     // Generated from title
@@ -12,3 +12,4 @@
     updatedAt: { type: Date, default: Date.now }
 }
 ```
+

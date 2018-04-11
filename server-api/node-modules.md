@@ -114,7 +114,7 @@ filesystem storage module for blobs
 
 ## fs-extra
 
-adds file system methods that aren't included in the native fs-module and adds promise support to the fs-methods; drop in replacement for the fs-module including [these](https://github.com/jprichardson/node-fs-extra "these") methods.
+adds file system methods that aren't included in the native fs-module and adds promise support to the fs-methods; drop in replacement for the fs-module including [these](https://github.com/jprichardson/node-fs-extra) methods.
 
 ## handlebars
 
@@ -146,7 +146,7 @@ Node-sass is a library that provides binding for Node.js to [LibSass](https://gi
 
 ## raven
 
-JavaScript client for the [Sentry](https://sentry.io/welcome/ "Sentry") realtime event logging and aggregation platform.
+JavaScript client for the [Sentry](https://sentry.io/welcome/) realtime event logging and aggregation platform.
 
 ## serve-favicon
 

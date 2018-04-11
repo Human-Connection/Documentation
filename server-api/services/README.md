@@ -6,5 +6,3 @@ The Human Connection Plattform consists of seperate services that can be split i
 >
 > It's also not done in the first step as we wanted to be able to build and deliver quickly with a really small team which fluctuate very strongly.
 
-
-

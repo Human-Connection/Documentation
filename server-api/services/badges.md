@@ -1,4 +1,0 @@
-# Badges Service
-
-
-
