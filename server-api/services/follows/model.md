@@ -1,0 +1,10 @@
+# Model
+
+## Schema
+
+```javascript
+{
+
+}
+```
+

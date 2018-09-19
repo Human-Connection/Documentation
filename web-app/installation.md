@@ -1,6 +1,6 @@
-# Installation of the HC WebApp
+# Installation
 
-###### Installation \(On Local System\)
+#### Installation \(On Local System\)
 
 > uses the Nuxt.js and Express.js projects
 
@@ -39,6 +39,4 @@ When built you can open it at [http://localhost:6060](http://localhost:6060)
 ## Backpack
 
 We use [backpack](https://github.com/palmerhq/backpack) to watch and build the application, so you can use the latest ES6 features \(module syntax, async/await, etc.\).
-
-
 
