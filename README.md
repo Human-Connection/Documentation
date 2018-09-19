@@ -23,27 +23,3 @@ You can get help here too: https://discord.gg/mVmjvNF<br />
 ## License 
 Copyright (c) 2018 [Human-Connection.org](https://human-connection.org)<br />
 Licensed under the [MIT](https://github.com/Human-Connection/WebApp/blob/develop/LICENSE.md) license.<br />
-
-# Human-Connection Documentation
-This is the documentation of HC.<br />
-
-## Help
-The HC platform and its setup is documented in our [gitbook](https://www.gitbook.com/book/human-connection/documentation/) (work in progress).<br />
-You can get help here too: https://discord.gg/mVmjvNF<br />
-
-## License 
-Copyright (c) 2018 [Human-Connection.org](https://human-connection.org)<br />
-Licensed under the [MIT](https://github.com/Human-Connection/WebApp/blob/develop/LICENSE.md) license.<br />
-
-# Introduction
-
-![Human-Connection](.gitbook/assets/hc-guide-2x.png)
-
-## Welcome to our Human-Connection Documentation
-
-> You can read this Documentation under [docs.human-connection.org](https://docs.human-connection.org)
-
-On the following pages you will learn how to Install, Understand and Contribute to the Human-Connection Plattform.
-
-> You don't know what Human-Connection is? [Jump to our Site](https://human-connection.org) to get more information on the Project.
-
