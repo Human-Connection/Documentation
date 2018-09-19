@@ -10,7 +10,7 @@
 You want to contribute to the Human-Connection project? Great! Just read
 on!<br />
 You're still undecided how you could actually help? We've got you
-covered!<br />
+covered:<br />
 <br />
 Head over to Opensource.Guide - there's an article that tells a lot
 about the Why and
