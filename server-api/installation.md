@@ -1,14 +1,53 @@
 # Installation
 
-#### Installation \(On Local System\)
+## Setup the API via Docker
 
-## Framework
+### Installation
+Make sure you have a recent version of [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) installed on your system.<br />
 
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+To determine the installed version, run:<br />
+```bash
+$ docker-compose up --build
+```
+Now, your API should be running at [http://localhost:3030](http://localhost:3030)
+and you can see some contributions at [http://localhost:3030/contributions](http://localhost:3030/contributions).
 
-## Getting Started
+For debugging you can run:
+```bash
+$ docker-compose run --rm --service-ports api yarn run dev:debug
+```
+And debug your app with [Chrome Dev Tools](chrome://inspect).
 
-> we recommand to install the project locally for the best development ease and performance
+### Configuration
+
+Change configuration in `config/docker/local-development.json` or
+`config/docker/local.json` and rerun `docker-compose up --build`.
+
+#### Local Staging Environment
+
+To get an environment which is close to production, run the following:
+```sh
+$ docker-compose -f docker-compose.yml -f docker-compose.staging.yml up --build
+```
+
+### Testing
+
+Run the entire test suite with:
+```bash
+$ docker-compose run --rm api yarn run test
+```
+
+If you want you can run specific tests:
+```bash
+$ docker-compose run --rm api yarn run mocha
+$ docker-compose run --rm api yarn run cucumber
+```
+
+## Setup the API locally
+
+### Getting Started
+
+> We recommend to install the project locally for the best development ease and performance
 
 Getting up and running is as easy as 1, 2, 3, 4 ... 5.
 
@@ -28,7 +67,7 @@ Getting up and running is as easy as 1, 2, 3, 4 ... 5.
 
 4. Setup local mailserver \(optional\)
 
-   > **Note:**_You only have to start that mailserver when you want to register, reset your password or test emails in any form, it does not affect the rest of the application._
+   > **Note:** You only have to start that mailserver when you want to register, reset your password or test emails in any form, it does not affect the rest of the application._
 
    Copy `config/local.example.json` to `config/local.json` and install the [MailDev](https://github.com/djfarrelly/MailDev) server to catch all sent emails in a nice web interface.
 
@@ -76,7 +115,7 @@ Getting up and running is as easy as 1, 2, 3, 4 ... 5.
 
    > Do not forget to always start it if you choose that setup or otherwise you will not see any pictures at all.
 
-## Local configuration
+### Local configuration
 
 If you need to configure anything you can do so inside the `config/local.json` file. For that the `config/local.example.json` will contain always a minimal setup to get it working.
 
@@ -94,25 +133,25 @@ If, f.ex., you want to change listen address, port or URL, you can do so. Entrie
 
 > **Note**_You can switch the _`dropDatabase`_ entry after seeding and it will persist the seeded data._
 
-## Testing
+### Testing
 
 Simply run `yarn test` and all your tests in the `test/` directory will be run.
 
-## Scaffolding
+### Scaffolding
 
 Feathers has a powerful command line interface. Here are a few things it can do:
 
 ```bash
-$ npm install -g feathers-cli             
+$ npm install -g feathers-cli
 # Install Feathers CLI
 
-$ feathers generate service               
+$ feathers generate service
 # Generate a new Service
 
-$ feathers generate hook                  
+$ feathers generate hook
 # Generate a new Hook
 
-$ feathers generate model                 
+$ feathers generate model
 # Generate a new Model
 
 $ feathers help
