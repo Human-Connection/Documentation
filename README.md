@@ -1,12 +1,21 @@
-# Introduction
+<p align="center">
+  <a href="https://human-connection.org"><img align="center" src="https://human-connection.org/wp-content/uploads/2017/11/human-connection-logo.svg" alt="Human Connection" /></a>
+</p>
 
-![Human-Connection](.gitbook/assets/hc-guide-2x.png)
 
-## Welcome to our Human-Connection Documentation
+<p align="center">
+  <a href="https://discord.gg/NgVpvx9" alt="Discord Channel">
+<img src="https://img.shields.io/discord/443107904757694465.svg" alt="Discord" /></a>
+</p>
 
-> You can read this Documentation under [docs.human-connection.org](https://docs.human-connection.org)
+# Human-Connection Documentation
+This is the documentation source of HC.<br />
+You can read this Documentation under [docs.human-connection.org](https://docs.human-connection.org)<br />
 
-On the following pages you will learn how to Install, Understand and Contribute to the Human-Connection Plattform.
+## Help
+The HC platform and its setup is documented in our [docs](https://docs.human-connection.org/) (work in progress).<br />
+You can get help here too: https://discord.gg/mVmjvNF<br />
 
-> You don't know what Human-Connection is? [Jump to our Site](https://human-connection.org) to get more information on the Project.
-
+## License 
+Copyright (c) 2018 [Human-Connection.org](https://human-connection.org)<br />
+Licensed under the [MIT](https://github.com/Human-Connection/WebApp/blob/develop/LICENSE.md) license.<br />

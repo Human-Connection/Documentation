@@ -1,42 +1,55 @@
 # Installation
 
-#### Installation \(On Local System\)
+## Setup the Web App via Docker
 
-> uses the Nuxt.js and Express.js projects
+## Setup the Web App locally
 
-### Build Setup
+### Installation
 
-```bash
+#### Build Setup
+Run:
+``` bash
 # install dependencies
-$ yarn
+$ yarn install
 
 # serve with hot reload at localhost:3000
 $ yarn dev
 
-# build for production and launch server
+# build once and launch server
+$ yarn build
 $ yarn start
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
-### Test Login
+## Env Vars
 
-E-Mail: `test@test.de`  
-Password: `1234`
+> More information on environment variables can be found in the [documentation (WIP)](https://docs.human-connection.org/environments/docker-test-production/docker-configuration.html)
 
-## Styleguide
+#### Test Logins
 
-> Note: The Styleguide is currently broken as we can't use the webpack config from nuxt.js at the moment. If you find a way to fix that issue, please feel free to open a pull-request
+| Role      | E-Mail         | Password |
+| --------- | -------------- | -------- | 
+| Admin     | test@test.de   | 1234     |
+| Moderator | test2@test2.de | 1234     |
+| User      | test3@test3.de | 1234     |
 
+#### Styleguide
 The Developer Style Guide provides important infos about components and styles. To start it simply type:
 
-```bash
-$ npm run styleguide
+``` bash
+$ yarn run styleguide
 ```
-
 When built you can open it at [http://localhost:6060](http://localhost:6060)
 
-## Backpack
+## Localization
+
+> Located in two places!
+
+`locales/`
+
+[Lokalise.co](https://lokalise.co/public/829625945b3c04bf56d560.80490143/)
+
+#### Backpack
 
 We use [backpack](https://github.com/palmerhq/backpack) to watch and build the application, so you can use the latest ES6 features \(module syntax, async/await, etc.\).
-
