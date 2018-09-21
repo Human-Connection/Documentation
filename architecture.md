@@ -1,4 +1,6 @@
 # Architecture
 
-![Architecture Screenshot](https://i.imgur.com/4BgdK3I.png)
+![This schema shows how our systems are structured at the moment.](.gitbook/assets/grafik.png)
+
+
 
