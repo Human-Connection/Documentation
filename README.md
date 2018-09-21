@@ -19,6 +19,6 @@ The HC platform and its setup is documented in our [docs](https://docs.human-con
 ### License
 
 Copyright \(c\) 2018 [Human-Connection.org](https://human-connection.org)  
- Licensed under the [MIT](https://github.com/Human-Connection/WebApp/blob/develop/LICENSE.md) license.  
+Licensed under the [MIT](https://github.com/Human-Connection/WebApp/blob/develop/LICENSE.md) license.  
 
 
