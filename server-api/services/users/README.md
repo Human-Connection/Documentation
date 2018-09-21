@@ -2,5 +2,5 @@
 
 The `foreignUser` is a `user` or `organization` that the `user` follows.
 
+_More information will follow shortly_
 
-*More information will follow shortly*

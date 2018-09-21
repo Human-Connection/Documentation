@@ -3,41 +3,49 @@
 ## Setup the API via Docker
 
 ### Installation
-Make sure you have a recent version of [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) installed on your system.<br />
 
-To determine the installed version, run:<br />
+Make sure you have a recent version of [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) installed on your system.  
+
+
+To determine the installed version, run:  
+
+
 ```bash
 $ docker-compose up --build
 ```
-Now, your API should be running at [http://localhost:3030](http://localhost:3030)
-and you can see some contributions at [http://localhost:3030/contributions](http://localhost:3030/contributions).
+
+Now, your API should be running at [http://localhost:3030](http://localhost:3030) and you can see some contributions at [http://localhost:3030/contributions](http://localhost:3030/contributions).
 
 For debugging you can run:
+
 ```bash
 $ docker-compose run --rm --service-ports api yarn run dev:debug
 ```
+
 And debug your app with [Chrome Dev Tools](chrome://inspect).
 
 ### Configuration
 
-Change configuration in `config/docker/local-development.json` or
-`config/docker/local.json` and rerun `docker-compose up --build`.
+Change configuration in `config/docker/local-development.json` or `config/docker/local.json` and rerun `docker-compose up --build`.
 
 #### Local Staging Environment
 
 To get an environment which is close to production, run the following:
-```sh
+
+```bash
 $ docker-compose -f docker-compose.yml -f docker-compose.staging.yml up --build
 ```
 
 ### Testing
 
 Run the entire test suite with:
+
 ```bash
 $ docker-compose run --rm api yarn run test
 ```
 
 If you want you can run specific tests:
+
 ```bash
 $ docker-compose run --rm api yarn run mocha
 $ docker-compose run --rm api yarn run cucumber
@@ -65,23 +73,21 @@ Getting up and running is as easy as 1, 2, 3, 4, 5 ... 6.
    $ yarn
    ```
 
-4. Setup database seeder for local development (recommended)
+4. Setup database seeder for local development \(recommended\)
 
    Run
-   ```sh
+
+   ```bash
    $ cp config/local.example.json config/local.json
    ```
 
-5. Setup local mailserver (optional)
+5. Setup local mailserver \(optional\)
 
-   >  **Note:**
-   >  *You only have to start that mailserver when you want to register, reset your password or test emails in any form, it
-   >  does not affect the rest of the application.*
+   > **Note:** _You only have to start that mailserver when you want to register, reset your password or test emails in any form, it does not affect the rest of the application._
 
-   Install the [MailDev](https://github.com/djfarrelly/MailDev)
-   server to catch all sent emails in a nice web interface.
+   Install the [MailDev](https://github.com/djfarrelly/MailDev) server to catch all sent emails in a nice web interface.
 
-   ``` bash
+   ```bash
    # install mail dev (only has to be done once)
    $ yarn global add maildev
 
@@ -90,25 +96,26 @@ Getting up and running is as easy as 1, 2, 3, 4, 5 ... 6.
    $ maildev
    ```
 
-   You could also insert your smtp credentials into the local.json but that is not recommended as all emails would be sent
-   to the given addresses which should not happen in development.
+   You could also insert your smtp credentials into the local.json but that is not recommended as all emails would be sent to the given addresses which should not happen in development.
 
 6. Start server
 
-   You don't have a background process running for  mongodb?
-   Just open another terminal and run:
- 
+   You don't have a background process running for mongodb? Just open another terminal and run:
+
    ```bash
-	 # open up another terminal and run:
+     # open up another terminal and run:
    $ yarn run mongo
    # or if you are on windows, run:
    $ yarn run mongo:win
    ```
-   > ##### IMPORTANT for Windows users:
-   > - make sure you have mongo bin directory added to your PATH
+
+   > **IMPORTANT for Windows users:**
+   >
+   > * make sure you have mongo bin directory added to your PATH
 
    Start the API server with the following commands:
-   ``` bash
+
+   ```bash
    $ yarn dev
 
    # without hot reload
@@ -117,57 +124,50 @@ Getting up and running is as easy as 1, 2, 3, 4, 5 ... 6.
    $ NODE_ENV=production yarn start
    ```
 
-
-   Now, your API should be running at [http://localhost:3030](http://localhost:3030).
-   If you seeded your database, you will see some contributions at [http://localhost:3030/contributions](http://localhost:3030/contributions).
-
+Now, your API should be running at [http://localhost:3030](http://localhost:3030). If you seeded your database, you will see some contributions at [http://localhost:3030/contributions](http://localhost:3030/contributions).
 
 ### Local Configuration
 
-You can override any default configuration in `config/local.json`. You can find
-a list of availabe defaults in `config/default.json`.
-See [node-config documentation](https://github.com/lorenwest/node-config/wiki/Configuration-Files)
-for details.
+You can override any default configuration in `config/local.json`. You can find a list of availabe defaults in `config/default.json`. See [node-config documentation](https://github.com/lorenwest/node-config/wiki/Configuration-Files) for details.
 
-E.g. if you want to access the server from your mobile over WiFi, you should
-replace `localhost` in your settings with your IP address in the local network:
-```json
+E.g. if you want to access the server from your mobile over WiFi, you should replace `localhost` in your settings with your IP address in the local network:
+
+```javascript
 {
   "host": "192.168.188.22",
   "baseURL": "http://192.168.188.22:3030",
   "frontURL": "http://192.168.188.22:3000"
 }
-
 ```
 
 ### Local Testing
 
 Test Logins
 
-| Role      | E-Mail         | Password |
-| --------- | -------------- | -------- | 
-| Admin     | test@test.de   | 1234     |
-| Moderator | test2@test2.de | 1234     |
-| User      | test3@test3.de | 1234     |
-
+| Role | E-Mail | Password |
+| :--- | :--- | :--- |
+| Admin | test@test.de | 1234 |
+| Moderator | test2@test2.de | 1234 |
+| User | test3@test3.de | 1234 |
 
 Run the entire test suite with:
+
 ```bash
 $ yarn run test
 ```
 
 If you want you can run specific tests:
+
 ```bash
 $ yarn run mocha
 $ yarn run cucumber
 ```
 
-
 ## Scaffolding
 
 Feathers has a powerful command line interface. Here are a few things it can do:
 
-``` bash
+```bash
 $ yarn global add feathers-cli             # Install Feathers CLI
 
 $ feathers generate service               # Generate a new Service
@@ -175,3 +175,4 @@ $ feathers generate hook                  # Generate a new Hook
 $ feathers generate model                 # Generate a new Model
 $ feathers help                           # Show all commands
 ```
+

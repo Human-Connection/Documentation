@@ -13,7 +13,7 @@ We are building Docker Images automatically from the API and WebApp master branc
 ### ENV Variables
 
 | ENV Var | Required | Default \(local\) | Description |
-| :--- | :---: | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | HOST | ✓ | localhost | Host on which the api is running. |
 | PORT | ✓ | 3030 | Port on which the API Server is running. |
 | BASE\_URL | ✓ | [http://localhost:3030](http://localhost:3030) | Full API URL used for generating the Upload URL's. |
@@ -32,7 +32,7 @@ We are building Docker Images automatically from the API and WebApp master branc
 ### ENV Variables
 
 | ENV Var | Required | Default \(locale\) | Description |
-| :--- | :---: | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | BASE\_URL | ✓ | [http://localhost](http://localhost) | Full URL used for generating URL's |
 | HOST | ✓ | localhost | WebApp Server Host |
 | PORT | ✓ | 3000 | WebApp Server Port |
