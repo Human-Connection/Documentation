@@ -36,4 +36,5 @@
     * [Docker Configuration](environments/docker-test-production/docker-configuration.md)
   * [Local: Development](environments/local-development.md)
 * [Architecture](architecture.md)
-* [Contributing](CONTRIBUTING.md)
+* [Contributing](contributing.md)
+

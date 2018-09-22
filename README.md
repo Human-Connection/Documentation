@@ -13,7 +13,7 @@ This is the documentation source of HC.
 ### Help
 
 The HC platform and its setup is documented in our [docs](https://docs.human-connection.org/) \(work in progress\).  
- You can get help here too: [https://discord.gg/mVmjvNF](https://discord.gg/mVmjvNF)  
+ You can get help here too: [https://discord.gg/NgVpvx9](https://discord.gg/NgVpvx9)  
 
 
 ### License
