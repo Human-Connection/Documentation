@@ -7,3 +7,5 @@ For prerequisites and setup of API and frontend, please see those pages:
 
 Here's a graphical overview of how the components in the development environment are connected.
 
+![](../.gitbook/assets/development_env%20%281%29.png)
+
