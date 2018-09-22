@@ -2,5 +2,7 @@
 
 ## This is a graphical overview of the server api for your convenience.
 
-_Will be added soon_
+![](../.gitbook/assets/overview_api3.svg)
+
+![](../.gitbook/assets/server_api_models_3.svg)
 
