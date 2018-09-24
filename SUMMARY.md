@@ -37,4 +37,4 @@
   * [Local: Development](environments/local-development.md)
 * [Architecture](architecture.md)
 * [Contributing](contributing.md)
-
+* [License](LICENSE)
