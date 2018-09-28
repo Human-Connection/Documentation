@@ -7,4 +7,3 @@ Current stage of the Feature: As of now we have 2 types of posts **post** and **
 ![](../.gitbook/assets/posts.png)
 
 The Post builder should be easy to understand and work with for non-tech users. Quill is the current WYSIWYG editor implemented and it's toolbar can be customized.
-
