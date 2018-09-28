@@ -1,12 +1,9 @@
-# Installation
+# Docker Installation
 
-## Setup the Web App via Docker
 
-## Setup the Web App locally
+_More information will follow shortly_
 
-### Installation
-
-#### Build Setup
+# Local Installation
 
 Run:
 
@@ -45,14 +42,6 @@ $ yarn run styleguide
 ```
 
 When built you can open it at [http://localhost:6060](http://localhost:6060)
-
-## Localization
-
-> Located in two places!
-
-`locales/`
-
-[Lokalise.co](https://lokalise.co/public/829625945b3c04bf56d560.80490143/)
 
 #### Backpack
 
