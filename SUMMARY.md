@@ -31,6 +31,7 @@
 * [Web APP](web-app/README.md)
   * [Installation](web-app/installation.md)
   * [Accessibility](web-app/accessibility.md)
+  * [Internationalization](web-app/internationalization.md)
 * [Environments](environments/README.md)
   * [Docker: Test / Production](environments/docker-test-production/README.md)
     * [Docker Configuration](environments/docker-test-production/docker-configuration.md)
