@@ -6,10 +6,15 @@
 
 Make sure you have a recent version of [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) installed on your system.
 
-After that, you clone the repo by typing
+If you have, clone the repo of Human Connection in a console(-window) by typing
 
  ```bash
    $ git clone https://github.com/Human-Connection/API.git
+   ```
+, change to its directory with
+
+```bash
+   $ cd API
    ```
 
 and determine the installed version, running  
@@ -17,6 +22,7 @@ and determine the installed version, running
 ```bash
 $ docker-compose up --build
 ```
+.
 
 Now, your API should be running at [http://localhost:3030](http://localhost:3030) and you can see some contributions at [http://localhost:3030/contributions](http://localhost:3030/contributions).
 
