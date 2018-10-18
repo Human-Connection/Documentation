@@ -11,16 +11,19 @@ If you have, clone the repo of Human Connection in a console(-window) by typing
  ```bash
    $ git clone https://github.com/Human-Connection/API.git
    ```
-, change to its directory with
+and change to its directory with
 
 ```bash
    $ cd API
    ```
+.
 
-and determine the installed version, running  
+The following command needs root-privileges, on Linux-Systems we strongly recommend the use of sudo, on Windows-Systems you will need admin-rights or you should use the LSS (Linux Sub System).
+
+Determine now the installed version, running 
 
 ```bash
-$ docker-compose up --build
+$ sudo docker-compose up --build
 ```
 .
 
