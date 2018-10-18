@@ -4,11 +4,15 @@
 
 ### Installation
 
-Make sure you have a recent version of [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) installed on your system.  
+Make sure you have a recent version of [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) installed on your system.
 
+After that, you clone the repo by typing
 
-To determine the installed version, run:  
+ ```bash
+   $ git clone https://github.com/Human-Connection/API.git
+   ```
 
+and determine the installed version, running  
 
 ```bash
 $ docker-compose up --build
