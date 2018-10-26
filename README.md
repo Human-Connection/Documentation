@@ -2,7 +2,7 @@
 
 [![Human Connection](https://human-connection.org/wp-content/uploads/2017/11/human-connection-logo.svg)](https://human-connection.org)
 
-[![Discord](https://img.shields.io/discord/443107904757694465.svg)](https://discord.gg/NgVpvx9)
+[![Discord](https://img.shields.io/discord/443107904757694465.svg)](https://discord.gg/6ub73U3)
 
 ## Human-Connection Documentation
 
