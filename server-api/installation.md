@@ -6,6 +6,7 @@
 
 Make sure you have a recent version of [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) installed on your system.
 
+
 If you have, clone the repo of Human Connection in a console(-window) by typing
 
  ```bash
@@ -37,9 +38,11 @@ $ docker-compose run --rm --service-ports api yarn run dev:debug
 
 And debug your app with [Chrome Dev Tools](chrome://inspect).
 
-### Configuration
+### Setting up the database seeder for local development (Configuration)
 
 Change configuration in `config/docker/local-development.json` or `config/docker/local.json` and rerun `docker-compose up --build`.
+
+If both the files do no exist create a `config/local.json` and copy the content of `config/local.example.json` and rerun `docker-compose up --build`.
 
 #### Local Staging Environment
 
@@ -69,6 +72,7 @@ $ docker-compose run --rm api yarn run cucumber
 ### Getting Started
 
 > We recommend to install the project locally for the best development ease and performance.
+>For windows users we recommend that either you use the docker setup or the linux sub system on windows when setting up the API
 
 Getting up and running is as easy as 1, 2, 3, 4, 5 ... 6.
 
@@ -86,7 +90,7 @@ Getting up and running is as easy as 1, 2, 3, 4, 5 ... 6.
    $ yarn
    ```
 
-4. Setup database seeder for local development \(recommended\)
+##Setting up the database seeder for local development \(recommended\)
 
    Run
 
@@ -94,7 +98,9 @@ Getting up and running is as easy as 1, 2, 3, 4, 5 ... 6.
    $ cp config/local.example.json config/local.json
    ```
 
-5. Setup local mailserver \(optional\)
+  or copy the content in config/local.example.json to config/local.json
+
+4. Setup local mailserver \(optional\)
 
    > **Note:** _You only have to start that mailserver when you want to register, reset your password or test emails in any form, it does not affect the rest of the application._
 
