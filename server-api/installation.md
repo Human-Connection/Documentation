@@ -38,11 +38,13 @@ $ docker-compose run --rm --service-ports api yarn run dev:debug
 
 And debug your app with [Chrome Dev Tools](chrome://inspect).
 
-### Setting up the database seeder for local development (Configuration)
+### Setting up the database seeder for local development 
 
 Change configuration in `config/docker/local-development.json` or `config/docker/local.json` and rerun `docker-compose up --build`.
 
 If both the files do no exist create a `config/local.json` and copy the content of `config/local.example.json` and rerun `docker-compose up --build`.
+
+Reference : https://github.com/lorenwest/node-config/wiki/Configuration-Files
 
 #### Local Staging Environment
 
