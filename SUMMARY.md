@@ -39,6 +39,8 @@
 * [Architecture](architecture.md)
 * [Features](features/README.md)
   * [Post Builder](features/postbuilder.md)
+* [Administration](administration/README.md)
+  * [MongoDB](administration/mongo.md)
 * [Contributing](contributing.md)
 * [License](license.md)
 
